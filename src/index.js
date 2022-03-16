@@ -9,7 +9,8 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 
-const colorRed = new THREE.Color('hsl(50, 10%, 85%)');
+const colorYellow = new THREE.Color('hsl(64, 95%, 62%)');
+const colorRed= new THREE.Color('hsl(0, 88%, 53%)');
 
 const sphereGeometry = new THREE.SphereGeometry(15,32,32);
 
@@ -32,14 +33,16 @@ sphere.rotation.z = 5;
 sphere.rotation.x = -6;
 sphere.rotation.y = -1;
 
-const light = new THREE.PointLight(colorRed, 1);
+const light = new THREE.PointLight(colorYellow, 1, 1000);
+const light2 = new THREE.PointLight(colorRed,1, 1000);
 
 
 light.position.z = 500;
-light.position.y = 0;
+light2.position.z = 500;
 light.position.x = 0;
 
 scene.add(light);
+scene.add(light2);
 
 
 function animate() {
