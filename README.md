@@ -2,7 +2,8 @@ This is my first project with three.js
 How to run this project:
 1. Install node.js with npm package from node.js website
 2. run 'npm init' in yout terminal
-3. in dependences i add to a webpack and three.js package 
+
+
 In this project i used to webpack(webpack.js.org)and three.js (threejs.org)
 
 
