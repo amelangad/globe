@@ -1,4 +1,4 @@
-This project is made with three.js library. This is a just globe. You can scroll to zoom or catch by click and hold :)
+This project is made with three.js library. This is just globe. You can scroll to zoom or catch by click and hold :)
 It's using webpack
 To run this project have to:
 1. install npm and webpack
